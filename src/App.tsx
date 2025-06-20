@@ -1,5 +1,6 @@
 import ListGroup from "./components/ListGroup";
 import Alert from "./components/Alert";
+import Button from "./components/Button";
 
 function App() {
   const items = ["New York", "San Francisco", "Tokyo", "London", "Paris"];
@@ -17,6 +18,7 @@ function App() {
         heading="Cities"
         onSelectItem={handleSelectItem}
       />
+      <Button alertType="secondary" btnText="Go Back" />
     </div>
   );
 }
