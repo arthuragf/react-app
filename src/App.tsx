@@ -18,7 +18,13 @@ function App() {
         heading="Cities"
         onSelectItem={handleSelectItem}
       />
-      <Button alertType="secondary" btnText="Go Back" />
+      <Button
+        alertType="success"
+        btnText="Go Back"
+        onClick={() => {
+          console.log("click");
+        }}
+      />
     </div>
   );
 }
